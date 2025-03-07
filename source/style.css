@@ -20,16 +20,21 @@ a {
 
 .header__phone-conteiner {
     display: flex;
+    align-items: center;
 }
 
-.header__phone-conteiner-image {
+.header__phone-logo {
     width: 40px;
     height: 50px;
 }
 
-.header__phone-conteiner-phone-number {
+.header__phone-number {
     font-size: 2em;
     color: black;
+}
+
+.header__phone-number:hover {
+    color: rgb(45, 45, 45);
 }
 
 .header__logo-conteiner {
@@ -37,21 +42,23 @@ a {
     align-items: center;
 }
 
-.header__logo-conteiner-logo {
+
+
+.header__logo-ref img {
     width: 80px;
 }
 
 .header__account-info {
     display: flex;
-    align-items: center;
+    align-items: center ;
 }
 
-.header__account-info-acc-image {
-    width: 50px;
-    height: 50px;
-}
-
-.header__account-info-shopping-cart {
+.header__avatar img {
     width: 40px;
     height: 40px;
+}
+
+.header__shopping-cart img {
+    width: 60px;
+    height: 60px;
 }
