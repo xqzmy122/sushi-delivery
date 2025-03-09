@@ -75,8 +75,21 @@ p {
 
 .sushi-container {
     max-width: 1000px;
+    border: solid black 0.5px;
+    max-height: 80vh;
+    overflow: hidden;
+    transition: overflow 0.3s ease-in-out;
+}
+
+.sushi-container:hover {
+    overflow-y: auto;
+}
+
+.sushi-container::-webkit-scrollbar {
+    display: none;
 }
 
 .card-text {
     font-size: 1.4em;
 }
+
