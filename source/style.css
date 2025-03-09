@@ -5,11 +5,17 @@
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
-}
+    font-family: 'Oswald', sans-serif;  
+}   
+
+
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 .header__inner {
@@ -42,10 +48,13 @@ a {
     align-items: center;
 }
 
-
-
 .header__logo-ref img {
-    width: 80px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.header__text {
+    color: black;
 }
 
 .header__account-info {
@@ -56,9 +65,18 @@ a {
 .header__avatar img {
     width: 40px;
     height: 40px;
+    color: white    ;
 }
 
 .header__shopping-cart img {
     width: 60px;
     height: 60px;
+}
+
+.sushi-container {
+    max-width: 1000px;
+}
+
+.card-text {
+    font-size: 1.4em;
 }
