@@ -93,3 +93,43 @@ p {
     font-size: 1.4em;
 }
 
+.card__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.items {
+    display: flex;
+
+}
+
+.items__control {
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    background-color: bisque;
+}
+
+.items__current {
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    background-color: bisque;
+}   
+
+.items__control--left-circled {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.items__control--right-circled {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.items__control:hover {
+    cursor: pointer;
+}
+
